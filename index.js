@@ -138,7 +138,7 @@
 // B EVENTLISTNERS
 // i. Add directly to the button in html.
 // ii. add eventlistern in JavaScript
-// Direct application of listenner
+
 
 
 
