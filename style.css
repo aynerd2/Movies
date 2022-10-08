@@ -1,0 +1,29 @@
+*{
+      background-color: rgb(7, 46, 96);
+      color: white;
+      
+}
+
+
+.container{
+
+      position: relative;
+}
+
+#main-heading{
+      font-weight: 600;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+     
+     
+    
+}
+
+
+ li{
+      list-style: none;
+      
+
+
+}
+
