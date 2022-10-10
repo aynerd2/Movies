@@ -161,54 +161,72 @@
 // QUOTE PROJECT
 
 
-let btn = document.querySelector('#new-quote');
-let quote = document.querySelector('.quote');
-let person = document.querySelector('.person');
+// let btn = document.querySelector('#new-quote');
+// let quote = document.querySelector('.quote');
+// let person = document.querySelector('.person');
 
-const quotes = 
-[
+// const quotes = 
+// [
       
-            {
-                  quote: `"The best way to find yourself is to lose yourself in the service of others. "`,
-                  person: `Mahatma Gandhi`
-            },
+//             {
+//                   quote: `"The best way to find yourself is to lose yourself in the service of others. "`,
+//                   person: `Mahatma Gandhi`
+//             },
 
-            {
-                  quote: `"If you want to live a happy life, tie it to a goal, not to people or things. "`,
-                  person: `Albert Einstein`
-            },
-
-
-            {
-                  quote: `"At his best, man is the nooblest of all animals; separated from law and justice he is the worst. "`,
-                  person: `Aristotle`
-            },
+//             {
+//                   quote: `"If you want to live a happy life, tie it to a goal, not to people or things. "`,
+//                   person: `Albert Einstein`
+//             },
 
 
-            {
-                  quote: `"Your time is limited, so dont waste it living someone elses life."`,
-                  person: `Steve Jobs`
-            },
-
-            {
-                  quote: `"Tell me and i forget. Teach me and I remember. Involve me and i learn."`,
-                  person: `Benjamin Franklin`
-            },
-
-            {
-                  quote: `"It does not matter how slowly you go as long as you do not stop"`,
-                  person: `Confucius`
-            },
+//             {
+//                   quote: `"At his best, man is the nooblest of all animals; separated from law and justice he is the worst. "`,
+//                   person: `Aristotle`
+//             },
 
 
-];
+//             {
+//                   quote: `"Your time is limited, so dont waste it living someone elses life."`,
+//                   person: `Steve Jobs`
+//             },
+
+//             {
+//                   quote: `"Tell me and i forget. Teach me and I remember. Involve me and i learn."`,
+//                   person: `Benjamin Franklin`
+//             },
+
+//             {
+//                   quote: `"It does not matter how slowly you go as long as you do not stop"`,
+//                   person: `Confucius`
+//             },
+
+
+// ];
 
 
 
-btn.addEventListener('click', function(){
+// btn.addEventListener('click', function(){
 
-      let random = Math.floor(Math.random() * quotes.length);
-      quote.innerText = quotes[random].quote;
-      person.innerText = quotes[random].person;
+//       let random = Math.floor(Math.random() * quotes.length);
+//       quote.innerText = quotes[random].quote;
+//       person.innerText = quotes[random].person;
+// })
+
+// PROJECT 2
+
+let openbtn = document.getElementById('open-btn');
+let modalContainer = document.getElementById('modal-container');
+let closebtn = document.getElementById('close-btn');
+
+
+
+openbtn.addEventListener("click", function(){
+      modalContainer.style.display = 'block'
 })
 
+closebtn.addEventListener("click", function(){
+      modalContainer.style.display = "none";
+})
+
+
+window.addEventListener
